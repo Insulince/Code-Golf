@@ -1,1 +1,1 @@
-import java.util.Scanner;class f{public static void main(String[]z){Scanner n=new Scanner(System.in);int a=0,b=1,c;for(int i=n.nextInt();i>0;i--){c=b;b=a;a+=c;System.out.print(b+" ");}}}
+import java.util.*;class f{public static void main(String[]z){int a=0,b=1,c;for(int i=new Scanner(System.in).nextInt();i>0;i--){c=b;b=a;a+=c;System.out.print(b+" ");}}}
